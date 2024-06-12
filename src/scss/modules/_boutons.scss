@@ -1,0 +1,35 @@
+.button {
+  display: inline-block;
+  padding: 10px 27px;
+  border-radius: 7px;
+  border: 1px solid #34170e;
+  background: #fff0ce;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  place-content: center;
+}
+
+.button-social {
+  display: inline-block;
+  border-radius: 100%;
+  border: 1px solid #34170e;
+  background: #fff0ce;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button-insta {
+  padding: 22px;
+}
+
+.button-tiktok {
+  padding: 20px 25px;
+}

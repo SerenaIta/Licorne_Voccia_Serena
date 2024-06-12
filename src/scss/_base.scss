@@ -2,9 +2,6 @@
 // css variables
 // ==================================== */
 
-:root {
-}
-
 /* ====================================
 // reset rules
 // ==================================== */
@@ -15,17 +12,14 @@
   padding: 0;
 }
 
-html {
-  font-size: 16px;
-}
-
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-
   font-size: 1rem;
   line-height: 1.25;
+  max-width: 1440px;
+  margin: auto;
 }
 
 a {
@@ -45,4 +39,27 @@ video {
 
 * {
   font-family: "monotalic", sans-serif;
+  color: #34170e;
+}
+
+h1 {
+  width: 283px;
+  height: 52px;
+}
+
+h2,
+h3,
+p {
+  text-align: center;
+}
+
+.button,
+.strong-text,
+p {
+  font-size: 24px;
+}
+
+.button,
+.strong-text {
+  font-weight: 500;
 }
