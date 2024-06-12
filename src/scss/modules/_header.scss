@@ -48,3 +48,21 @@ header p:first-child {
 .nav .nav-flex:last-child {
   border-left: 1px solid #34170e;
 }
+
+// ---------------------------------------
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 560px; /* Fixe la hauteur à 560px */
+  overflow: hidden; /* Cache les parties de la vidéo qui dépassent */
+}
+
+video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100%; /* Prend toute la hauteur de 560px */
+  width: auto; /* Largeur automatique pour maintenir le ratio */
+  transform: translate(-50%, -50%); /* Centre la vidéo */
+}
