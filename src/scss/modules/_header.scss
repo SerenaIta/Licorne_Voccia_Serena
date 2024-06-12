@@ -13,3 +13,38 @@ header p:first-child {
   padding-top: 9px;
   padding-bottom: 24px;
 }
+
+// ---------------------------------------
+
+.nav {
+  background: #fff0ce;
+  border: 1px solid #34170e;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.nav-flex {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  padding: 25px 50px;
+}
+
+.nav .col-12 {
+  display: flex;
+}
+
+.nav-flex-icons {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.nav-gap {
+  gap: 59px;
+  border-right: 1px solid #34170e;
+  border-left: 1px solid #34170e;
+}
+
+.nav .nav-flex:last-child {
+  border-left: 1px solid #34170e;
+}
