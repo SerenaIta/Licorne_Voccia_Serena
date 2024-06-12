@@ -42,15 +42,16 @@ video {
   color: #34170e;
 }
 
-h1 {
-  width: 283px;
-  height: 52px;
-}
-
 h2,
 h3,
 p {
   text-align: center;
+}
+
+h2 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 139.5%;
 }
 
 .button,
@@ -59,7 +60,15 @@ p {
   font-size: 24px;
 }
 
+p {
+  font-weight: 300;
+}
+
 .button,
 .strong-text {
   font-weight: 500;
+}
+
+.clair-bg {
+  background-color: #fff9eb;
 }
