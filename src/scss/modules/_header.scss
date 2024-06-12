@@ -66,3 +66,36 @@ video {
   width: auto; /* Largeur automatique pour maintenir le ratio */
   transform: translate(-50%, -50%); /* Centre la vidéo */
 }
+
+// ---------------------------------------
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  height: 74px; /* Hauteur du slider */
+  overflow: hidden;
+  background-color: #fff0ce;
+  border: 1px solid #34170e;
+  display: flex;
+  align-items: center;
+}
+
+.slider {
+  display: flex;
+  width: max-content;
+  animation: scroll 25s linear infinite; /* Durée et animation du défilement */
+}
+
+.slider-item {
+  flex: 0 0 auto; /* Empêche l'étirement des éléments */
+  padding-left: 133px; /* Espacement entre les éléments */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
