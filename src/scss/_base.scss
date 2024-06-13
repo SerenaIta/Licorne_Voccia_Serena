@@ -43,8 +43,6 @@ video {
   font-size: 24px;
 }
 
-h2,
-h3,
 p {
   text-align: center;
 }
@@ -53,6 +51,8 @@ h2 {
   font-size: 64px;
   font-weight: 700;
   line-height: 139.5%;
+  padding: 63px 0 63px 50px;
+  text-align: left;
 }
 
 .button,
@@ -74,7 +74,6 @@ p {
   background-color: #fff9eb;
 }
 
-video {
-  width: auto;
-  height: 560px;
+.fonces-bg {
+  background-color: #fff0ce;
 }

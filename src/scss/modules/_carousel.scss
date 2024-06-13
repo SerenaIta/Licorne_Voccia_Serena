@@ -1,0 +1,90 @@
+.carousel {
+  position: relative;
+}
+
+.carousel-wrapper {
+  width: 1440px;
+  height: 820px;
+  overflow: hidden;
+  margin: auto;
+  // border: 2px solid #000; /* Border for clarity */
+  // background-color: #f0f0f0; /* Light gray background for the wrapper */
+}
+
+.carousel-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  // background-color: #d0d0d0; /* Darker gray background for the container */
+}
+
+.carousel-slide {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  // border: 2px solid #333; /* Dark border for the slide */
+}
+
+.carousel-item {
+  min-width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap to the next line */
+  // align-items: flex-start; /* Align items to the top */
+  // justify-content: flex-start; /* Align items to the start of the line */
+  // border: 2px solid #555; /* Medium dark border for each item */
+  // background-color: #fff; /* White background for each item */
+}
+
+.carousel-wrapper .col-6 {
+  flex: 0 0 50%; /* 50% width */
+  box-sizing: border-box;
+  padding: 10px; /* Optional padding */
+  // border: 1px solid #999; /* Light border for .col-6 */
+  // background-color: #f9f9f9; /* Lightest gray background for .col-6 */
+}
+
+.carousel-wrapper .col-12 {
+  flex: 0 0 100%; /* 100% width */
+  box-sizing: border-box;
+  padding: 10px; /* Optional padding */
+  // border: 1px solid #999; /* Light border for .col-12 */
+  // background-color: #e9e9e9; /* Slightly darker gray background for .col-12 */
+}
+
+.carousel-dots {
+  position: absolute;
+  bottom: -42px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+
+.carousel-dots .dot {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 1px solid #34170e;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.dot.active {
+  width: 35px;
+  height: 35px;
+}
+
+.dot-1 {
+  background-color: #ff961f;
+}
+
+.dot-2 {
+  background-color: #e04f00;
+}
+
+.dot-3 {
+  background-color: #c14c79;
+}
