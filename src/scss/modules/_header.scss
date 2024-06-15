@@ -71,7 +71,7 @@ video {
 .slider-container {
   position: relative;
   width: 100%;
-  height: 74px; /* Hauteur du slider */
+  height: 74px;
   overflow: hidden;
   border: 1px solid #34170e;
   display: flex;
@@ -81,12 +81,13 @@ video {
 .slider {
   display: flex;
   width: max-content;
-  animation: scroll 25s linear infinite; /* Durée et animation du défilement */
+  animation: scroll 25s linear infinite;
+  font-weight: 300;
 }
 
 .slider-item {
-  flex: 0 0 auto; /* Empêche l'étirement des éléments */
-  padding-left: 133px; /* Espacement entre les éléments */
+  flex: 0 0 auto;
+  padding-left: 133px;
 }
 
 @keyframes scroll {
