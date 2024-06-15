@@ -37,5 +37,67 @@
   border-top: none;
 }
 
-.staminchia {
+// -------------------
+
+.iframe {
+  border: 1px solid #34170e;
+  border-bottom: none;
+}
+
+.contact {
+  border: 1px solid #34170e;
+  border-bottom: none;
+  padding: 63px 0 63px 51px;
+}
+
+.contact p {
+  text-align: left;
+  line-height: normal;
+}
+
+.contact p:nth-child(2) {
+  padding-top: 50px;
+}
+
+// -------------------------------
+
+.avis,
+.etoiles {
+  border: 1px solid #34170e;
+}
+
+.avis {
+  border-left: none;
+  border-bottom: none;
+}
+
+.etoiles {
+  border-bottom: none;
+  display: flex;
+  align-items: center;
+  gap: 44px;
+  padding-left: 89px;
+}
+
+// -------------------------------
+
+.newsletter h2 {
+  border: 1px solid #34170e;
+  border-bottom: none;
+}
+
+.newsletter {
+  display: flex;
+  justify-content: center;
+}
+
+.newsletter p {
+  opacity: 0.4;
+}
+
+.insertion-newsletter {
+  border: 1px solid #34170e;
+  border-left: none;
+  border-bottom: none;
+  padding-top: 125px;
 }
