@@ -17,7 +17,6 @@
 }
 
 .button-social {
-  display: inline-block;
   border-radius: 100%;
   border: 1px solid #34170e;
   background: #fff0ce;
@@ -32,4 +31,15 @@
 
 .button-tiktok {
   padding: 20px 25px;
+}
+
+.flex-center .button {
+  margin: 63px 0;
+}
+
+.social-container {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  margin: 63px 0;
 }

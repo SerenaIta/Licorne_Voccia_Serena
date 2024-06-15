@@ -1,0 +1,18 @@
+.brasserie .col-6:nth-child(2) {
+  border: 1px solid #34170e;
+  border-radius: 0 35px 0 0;
+}
+
+.brasserie .col-12 {
+  border: 1px solid #34170e;
+  border-top: none;
+  border-radius: 0 0 35px 35px;
+}
+
+.brasserie .col-12 {
+  padding: 63px;
+}
+
+.col-12 p:nth-child(2) {
+  padding-top: 63px;
+}

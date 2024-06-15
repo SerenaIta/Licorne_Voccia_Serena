@@ -4,6 +4,38 @@
 
 // ------------------------------
 
-.last-cont-footer {
+.test div {
   font-size: 12px;
+  font-weight: 400;
+}
+
+.website-details {
+  display: flex;
+  align-items: center;
+  padding: 17px 50px;
+  gap: 139px;
+  border-right: 1px solid #34170e;
+}
+
+.website-details img {
+  padding-right: 6px;
+}
+
+.test {
+  display: flex;
+  align-items: center;
+}
+
+.testadicazzo {
+  // padding: 0 74px;
+  width: 337px;
+  text-align: center;
+}
+
+.last-cont-footer {
+  border: 1px solid #34170e;
+  border-top: none;
+}
+
+.staminchia {
 }
