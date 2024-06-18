@@ -7,6 +7,7 @@
   text-align: center;
   cursor: pointer;
   text-decoration: none;
+  position: relative;
 }
 
 .flex-center {
@@ -55,4 +56,20 @@
 
 .shop-button-2 {
   margin-top: 137px;
+}
+
+.button::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 12px;
+  width: 0;
+  height: 2px;
+  background: #34170e;
+  transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+.button:hover::after {
+  width: 100%;
+  left: 0;
 }
