@@ -102,3 +102,60 @@ video {
     transform: translateX(-50%);
   }
 }
+
+// ---------------------------------------
+
+/* Styles for the dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Hide the dropdown content by default */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 64px;
+  left: -51px;
+  background-color: #fff0ce;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 0;
+  z-index: 1;
+  width: 140px;
+}
+
+/* Style for the dropdown items */
+.dropdown-item {
+  border: 0.5px solid #34170e;
+  color: black;
+  text-align: center;
+  padding: 15px 0;
+  text-decoration: none;
+  display: block;
+  position: relative; /* Needed for the underline effect */
+}
+
+/* Show the dropdown content on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  transition: opacity 0.3s ease;
+}
+
+/* Hover effect for dropdown items */
+.dropdown-item::after {
+  content: "";
+  display: block;
+  width: 0;
+  bottom: 0;
+  height: 2px;
+  background: black;
+  transition: width 0.3s ease-in-out;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.dropdown-item:hover::after {
+  width: 100%; /* Pleine largeur sous le texte */
+  background-color: black; /* Couleur de l'underline text */
+}
