@@ -91,13 +91,29 @@
   justify-content: center;
 }
 
-.newsletter p {
-  opacity: 0.4;
-}
+// --------------------------
 
 .insertion-newsletter {
   border: 1px solid #34170e;
   border-left: none;
   border-bottom: none;
-  padding-top: 125px;
+  padding-top: 120px;
+}
+
+.insertion-newsletter form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.insertion-newsletter input[type="email"] {
+  width: 100%;
+  max-width: 80%;
+  border: none;
+  background: transparent;
+  outline: none;
+  text-align: center;
+  font-style: normal;
+  font-weight: 300;
 }
