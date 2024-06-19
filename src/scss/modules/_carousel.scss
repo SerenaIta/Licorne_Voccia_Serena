@@ -1,5 +1,6 @@
 .carousel {
   position: relative;
+  filter: drop-shadow(4px 4px 20px rgba(0, 0, 0, 0.4));
 }
 
 .carousel-wrapper {
@@ -33,6 +34,7 @@
   position: absolute;
   top: 426px;
   left: 620px;
+  filter: drop-shadow(4px 4px 20px rgba(0, 0, 0, 0.4));
 }
 
 .carousel-item p {

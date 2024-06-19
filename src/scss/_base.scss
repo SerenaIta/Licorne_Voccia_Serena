@@ -98,3 +98,8 @@ a {
   font-weight: 500;
   margin: 0 0 200px 0;
 }
+
+.galerie,
+footer {
+  filter: drop-shadow(4px 4px 20px rgba(0, 0, 0, 0.4));
+}
