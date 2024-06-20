@@ -1,10 +1,25 @@
+.badge-bottles {
+  filter: drop-shadow(4px 4px 20px rgba(0, 0, 0, 0.4));
+  position: absolute;
+  padding-left: 140px;
+  top: -100px;
+}
+
+// ------------------------------
+
 .bottles-section {
   border: 1px solid #34170e;
   border-radius: 35px;
-  margin-top: 63px;
+  margin-top: 200px;
   filter: drop-shadow(4px 4px 20px rgba(0, 0, 0, 0.4));
 }
 
-.badge-bottles {
-  filter: drop-shadow(4px 4px 20px rgba(0, 0, 0, 0.4));
+.bottles-radius-1 {
+  border-radius: 35px 0 0 35px;
+  border-right: 1px solid #34170e;
+}
+
+.bottles-radius-2 {
+  border-radius: 0 35px 35px 0;
+  border-left: 1px solid #34170e;
 }

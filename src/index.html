@@ -98,24 +98,39 @@
       <div class="container clair-bg bottles-section">
         <div class="row">
           <div class="col-4">
-            <img class="badge-bottles" src="img/badge-blonde.svg" alt="" />
-            <img src="img/video.mp4" alt="bière 1" />
+            <div>
+              <img class="badge-bottles" src="img/badge-blonde.svg" alt="" />
+            </div>
+            <video class="bottles-radius-1" width="480" muted autoplay loop>
+              <source src="img/bottle-blonde.mp4" type="video/mp4" />
+              Votre navigateur ne supporte pas la balise vidéo.e
+            </video>
           </div>
           <div class="col-4">
-            <img class="badge-bottles" src="img/badge-brune.svg" alt="" /><img
-              src="img/video.mp4"
-              alt="bière 2"
-            />
+            <div>
+              <img class="badge-bottles" src="img/badge-brune.svg" alt="" />
+            </div>
+            <video width="480" muted autoplay loop>
+              <source src="img/bottle-brune.mp4" type="video/mp4" />
+              Votre navigateur ne supporte pas la balise vidéo.e
+            </video>
           </div>
           <div class="col-4">
-            <img
-              class="badge-bottles"
-              src="img/badge-glutenfree.svg"
-              alt=""
-            /><img src="img/video.mp4" alt="bière 3" />
+            <div>
+              <img
+                class="badge-bottles"
+                src="img/badge-glutenfree.svg"
+                alt=""
+              />
+            </div>
+            <video class="bottles-radius-2" width="480" muted autoplay loop>
+              <source src="img/bottle-gluten.mp4" type="video/mp4" />
+              Votre navigateur ne supporte pas la balise vidéo.e
+            </video>
           </div>
         </div>
       </div>
+      <!-- <div class="badge-section"></div> -->
       <div class="container">
         <div class="row">
           <div class="col-12 flex-center">
@@ -133,6 +148,7 @@
       <p class="special-p">Le bon goût de la bière sans ses contraintes !</p>
       <!-- ------------------ -->
       <div class="container carousel">
+        <img class="pattern" src="img/motif.svg" alt="" />
         <div class="row">
           <div class="carousel-wrapper">
             <div class="carousel-container">
@@ -236,6 +252,9 @@
           </div>
         </div>
       </div>
+      <!-- <div class="pattern-brasserie">
+        <img src="img/motif.svg" alt="" />
+      </div> -->
       <div class="container brasserie">
         <div class="row">
           <div class="col-6"><img src="img/brasserie.jpg" alt="" /></div>
@@ -265,12 +284,15 @@
           </div>
         </div>
       </div>
-      <div class="container galerie">
-        <div class="row">
-          <div class="col-3"><img src="img/galerie-1.jpg" alt="" /></div>
-          <div class="col-3"><img src="img/galerie-2.jpg" alt="" /></div>
-          <div class="col-3"><img src="img/galerie-3.jpg" alt="" /></div>
-          <div class="col-3"><img src="img/galerie-4.jpg" alt="" /></div>
+      <div class="pattern-galerie">
+        <img class="pattern" src="img/motif.svg" alt="" />
+        <div class="container galerie">
+          <div class="row">
+            <div class="col-3"><img src="img/galerie-1.jpg" alt="" /></div>
+            <div class="col-3"><img src="img/galerie-2.jpg" alt="" /></div>
+            <div class="col-3"><img src="img/galerie-3.jpg" alt="" /></div>
+            <div class="col-3"><img src="img/galerie-4.jpg" alt="" /></div>
+          </div>
         </div>
       </div>
       <div class="container">
@@ -295,104 +317,107 @@
       </div>
     </main>
     <footer>
-      <div class="container newsletter-container">
-        <div class="row">
-          <div class="newsletter clair-bg">
-            <div class="col-6 fonces-bg">
-              <h2>Inscris-toi <br />à notre newsletter !</h2>
-            </div>
-            <div class="col-6">
-              <div class="insertion-newsletter">
-                <form action="#">
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    placeholder="Insérez votre adresse mail ici..."
-                  />
-                  <button type="submit" class="button inscription-button">
-                    <span>S'inscrire</span>
-                  </button>
-                </form>
+      <div class="pattern-footer">
+        <img class="pattern" src="img/motif-2.svg" alt="" />
+        <div class="container newsletter-container">
+          <div class="row">
+            <div class="newsletter clair-bg">
+              <div class="col-6 fonces-bg">
+                <h2>Inscris-toi <br />à notre newsletter !</h2>
               </div>
-            </div>
-          </div>
-          <div class="col-7 clair-bg etoiles">
-            <div><h3>4,7/5</h3></div>
-            <div><img src="img/etoiles.svg" alt="" /></div>
-            <div>
-              <p>(324 avis)</p>
-            </div>
-          </div>
-          <div class="col-5 fonces-bg avis">
-            <h2>Donnes-nous ton avis !</h2>
-          </div>
-          <div class="col-7 iframe">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36714.52736485255!2d6.804807065962277!3d46.837069078147756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478dd93d3c9333d9%3A0x1172692964bda7e4!2sChem.%20du%20Lac%202%2C%201473%20Font!5e0!3m2!1sfr!2sch!4v1718110655739!5m2!1sfr!2sch"
-              width="946"
-              height="409"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
-          <div class="col-5 clair-bg contact">
-            <p>
-              Licorne<br />Sylvain Megroni<br />Chemin du Lac 2<br />
-              CH-1470 Estavayer-Le-Lac
-            </p>
-            <p>
-              <a href="mailto:brasserie.licorne@gmail.com"
-                >brasserie.licorne@gmail.com</a
-              ><br />
-              <a href="tel:+41 78 828 40 45">+41 78 828 40 45</a>
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="container nav nav-footer fonces-bg">
-        <div class="row">
-          <div class="col-12 test-2">
-            <div class="nav-flex"><div class="nav-item">Contact</div></div>
-            <div class="nav-flex nav-gap">
-              <div class="nav-item">Nos bières</div>
-              <div class="nav-item">Notre histoire</div>
-              <div class="nav-item">Shop</div>
-              <div class="nav-item">Points de vente</div>
-            </div>
-            <div class="nav-flex">
-              <div class="nav-flex-icons">
-                <div class="zoom-icon">
-                  <img src="img/cart.svg" alt="Bouton cadie" />
+              <div class="col-6">
+                <div class="insertion-newsletter">
+                  <form action="#">
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="Insérez votre adresse mail ici..."
+                    />
+                    <button type="submit" class="button inscription-button">
+                      <span>S'inscrire</span>
+                    </button>
+                  </form>
                 </div>
-                <di class="zoom-icon">
-                  <img src="img/account.svg" alt="Bouton mon compte" />
-                </di>
               </div>
             </div>
-            <div class="nav-flex">
-              <div class="zoom-icon">
-                <img src="img/languages.svg" alt="Bouton langues" />
+            <div class="col-7 clair-bg etoiles">
+              <div><h3>4,7/5</h3></div>
+              <div><img src="img/etoiles.svg" alt="" /></div>
+              <div>
+                <p>(324 avis)</p>
+              </div>
+            </div>
+            <div class="col-5 fonces-bg avis">
+              <h2>Donnes-nous ton avis !</h2>
+            </div>
+            <div class="col-7 iframe">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36714.52736485255!2d6.804807065962277!3d46.837069078147756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478dd93d3c9333d9%3A0x1172692964bda7e4!2sChem.%20du%20Lac%202%2C%201473%20Font!5e0!3m2!1sfr!2sch!4v1718110655739!5m2!1sfr!2sch"
+                width="946"
+                height="409"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <div class="col-5 clair-bg contact">
+              <p>
+                Licorne<br />Sylvain Megroni<br />Chemin du Lac 2<br />
+                CH-1470 Estavayer-Le-Lac
+              </p>
+              <p>
+                <a href="mailto:brasserie.licorne@gmail.com"
+                  >brasserie.licorne@gmail.com</a
+                ><br />
+                <a href="tel:+41 78 828 40 45">+41 78 828 40 45</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container nav nav-footer fonces-bg">
+          <div class="row">
+            <div class="col-12 test-2">
+              <div class="nav-flex"><div class="nav-item">Contact</div></div>
+              <div class="nav-flex nav-gap">
+                <div class="nav-item">Nos bières</div>
+                <div class="nav-item">Notre histoire</div>
+                <div class="nav-item">Shop</div>
+                <div class="nav-item">Points de vente</div>
+              </div>
+              <div class="nav-flex">
+                <div class="nav-flex-icons">
+                  <div class="zoom-icon">
+                    <img src="img/cart.svg" alt="Bouton cadie" />
+                  </div>
+                  <di class="zoom-icon">
+                    <img src="img/account.svg" alt="Bouton mon compte" />
+                  </di>
+                </div>
+              </div>
+              <div class="nav-flex">
+                <div class="zoom-icon">
+                  <img src="img/languages.svg" alt="Bouton langues" />
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="container last-cont-footer clair-bg">
-        <div class="row">
-          <div class="col-12 test">
-            <div class="website-details">
-              <div>Conditions générales de vente</div>
-              <div>Politique de confidentialité</div>
-              <div>
-                <img src="img/switzerland.svg" alt="" />© 2024 Licorne. Tous
-                droits réservés.
+        <div class="container last-cont-footer clair-bg">
+          <div class="row">
+            <div class="col-12 test">
+              <div class="website-details">
+                <div>Conditions générales de vente</div>
+                <div>Politique de confidentialité</div>
+                <div>
+                  <img src="img/switzerland.svg" alt="" />© 2024 Licorne. Tous
+                  droits réservés.
+                </div>
               </div>
-            </div>
-            <div>
-              <div class="creator">Website created by Serena Voccia</div>
+              <div>
+                <div class="creator">Website created by Serena Voccia</div>
+              </div>
             </div>
           </div>
         </div>
